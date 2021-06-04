@@ -25,11 +25,7 @@
     "db:migration:run": "npm run typeorm:cli -- migration:run",
     "db:schema:sync": "npm run typeorm:cli -- schema:sync"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
-  },
+
   "dependencies": {
     "@nestjs/common": "7.6.4",
     "@nestjs/core": "^7.6.4",
