@@ -12,8 +12,8 @@
     "host": "localhost",
     "port": 5432,
     "username": "postgres",
-    "password": "postgres",
-    "database": "nestjs_example"
+    "password": "chumakovv",
+    "database": "usersbook"
   },
   "LOGGER_SETTINGS": {
     "level": "info",
@@ -54,10 +54,10 @@
     "exchangeType": "direct",
     "name": "rabbitmq",
     "host": "localhost",
-    "vhost": "vhost",
+    "vhost": "vh1",
     "port": 5672,
-    "username": "admin",
-    "password": "password",
+    "username": "chumakovv",
+    "password": "chumakovv",
     "reconnectDelay": 10000,
     "prefetch": 10
   },

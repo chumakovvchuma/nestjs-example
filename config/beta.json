@@ -12,8 +12,8 @@
     "host": "localhost",
     "port": 5432,
     "username": "postgres",
-    "password": "postgres",
-    "database": "nestjs_example"
+    "password": "chumakovv",
+    "database": "postgres"
   },
   "LOGGER_SETTINGS": {
     "level": "info",

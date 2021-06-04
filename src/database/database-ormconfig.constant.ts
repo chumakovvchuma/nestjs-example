@@ -1,5 +1,6 @@
-import { TypeOrmModuleOptions } from '@nestjs/typeorm';
 import config from 'config';
+
+import { TypeOrmModuleOptions } from '@nestjs/typeorm';
 
 const settings: IDBSettings = config.get('DB_SETTINGS');
 
@@ -10,7 +11,7 @@ export function getOrmConfig(): TypeOrmModuleOptions {
     ormConfig = {
       type: 'postgres',
       ...settings,
-      database: `${settings.database}_${process.env.NODE_ENV}`,
+      database: `${settings.database}`,
       entities: [__dirname + '../../**/*.entity{.ts,.js}'],
       migrations: [__dirname + '/migrations/**/*{.ts,.js}'],
       migrationsRun: false,
